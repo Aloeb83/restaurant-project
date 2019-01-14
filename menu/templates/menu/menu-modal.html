@@ -1,5 +1,5 @@
 <div class="modal fade" id="modal-{{menu.id}}" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content" style="background-color: #cabc94;">
             <div class="modal-header text-center">
                 <h3 class="modal-title w-100">{{ menu.name }}</h3>
@@ -7,12 +7,16 @@
             </div>
 
             <div class="modal-body">
-
+                {% for item in menu.item.all %}
+                    <div>
+                        <h3>{{ item.name }}</h3>
+                        <p>{{ item.description }}</p>
+                        <h6>${{ item.price }}</h6>
+                        <br>
+                    </div>
+                {% endfor %}
             </div>
 
-            <div class="modal-footer">
-
-            </div>
         </div>
     </div>
 </div>

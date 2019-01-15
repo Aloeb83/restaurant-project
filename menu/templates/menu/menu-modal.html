@@ -8,12 +8,20 @@
 
             <div class="modal-body">
                 {% for item in menu.item.all %}
-                    <div>
-                        <h3>{{ item.name }}</h3>
-                        <p>{{ item.description }}</p>
-                        <h6>${{ item.price }}</h6>
-                        <br>
+                <div class="menu-container">
+                    <div class="flex-box-container-1">
+                        <div class="text-container">
+                            <h3>{{ item.name }}</h3>
+                            <p>{{ item.description }}</p>
+                            <h6>${{ item.price }}</h6>
+                            <br>
+                        </div>
+
+                        <div class="image-container">
+                            <img src="http://erfgoed20.nl/wp-content/uploads/2014/05/No_image_available.png" alt="http://erfgoed20.nl/wp-content/uploads/2014/05/No_image_available.png" height="100px" width="100px">
+                        </div>
                     </div>
+                </div>
                 {% endfor %}
             </div>
 

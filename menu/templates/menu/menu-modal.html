@@ -16,6 +16,14 @@
                             <h6>${{ item.price }}</h6>
                             <br>
                         </div>
+
+                        <div class="image-container">
+                            {% if item.image %}
+                            <img src="{{ item.image.url }}" width="100px" height="100px" style="border-radius: 50%;">
+                            {% else %}
+                            <img src="http://erfgoed20.nl/wp-content/uploads/2014/05/No_image_available.png" width="100px" height="100px">
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
                 {% endfor %}

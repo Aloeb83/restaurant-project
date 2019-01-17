@@ -20,3 +20,45 @@
     align-items: center;
     justify-content: center;
 }
+
+body {
+    height: 100%;
+}
+
+.bg {
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/E8EAEZ4/wine-glasses-on-a-wooden-table-at-a-restaurant-1080p-hd_n1qo29vy__F0000.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 7px;
+  }
+
+  .header-2 {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 7px;
+  }
+
+  .website-header{
+      text-align: center;
+      padding: 5px;
+      background-color: rgb(184, 184, 184);
+  }
+
+  @media only screen and (max-width: 768px) {
+      .website-header img {
+          width: 50%;
+      }
+  }
+
+  .modal-content {
+      background-image: url(http://www.themeadhall.net/p/2018/05/best-photos-of-mexican-restaurant-menu-backgrounds-mexican-regarding-dinner-menu-background-2018.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }

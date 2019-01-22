@@ -72,3 +72,38 @@ body {
         height: 35%;
     }
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #C9C9C9;
+    color: #3F3F3F;
+}
+
+.footer li{
+    list-style: none;
+    display: inline;
+    float: left;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #3F3F3F;
+    display: block;
+    padding: 8px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

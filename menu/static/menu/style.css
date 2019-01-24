@@ -1,3 +1,8 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 .menu-container{
     margin: 0 auto;
     width: 100%;
@@ -23,6 +28,7 @@
 
 body {
     height: 100%;
+    margin: 0 0 150px;
 }
 
 .bg {
@@ -45,32 +51,14 @@ body {
       background-color: #c9c9c9;
   }
 
-  @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-      .website-header img {
-          width: 55%;
-          height: 30%;
-      }
-  }
+  .container-2 li{
+    margin-right: 0;
+    padding-top: 3px;
+}
 
-  .modal-content {
-      background-image: url(http://www.themeadhall.net/p/2018/05/best-photos-of-mexican-restaurant-menu-backgrounds-mexican-regarding-dinner-menu-background-2018.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-
-  @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-    .website-header img {
-        width: 25%;
-        height: 35%;
-    }
+  .container-2 ul{
+    position: absolute;
+    right: 15px;
 }
 
 .footer {
@@ -80,6 +68,7 @@ body {
     width: 100%;
     background-color: #C9C9C9;
     color: #3F3F3F;
+    position: absolute;
 }
 
 .footer li{
@@ -96,7 +85,6 @@ body {
 }
 
 .container {
-    margin-right: auto;
     margin-left: 0;
     padding-left: 15px;
     padding-right: 15px;
@@ -107,3 +95,43 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+.modal-content {
+    background-image: url(http://www.themeadhall.net/p/2018/05/best-photos-of-mexican-restaurant-menu-backgrounds-mexican-regarding-dinner-menu-background-2018.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+      .website-header img {
+          width: 55%;
+          height: 30%;
+      }
+      .footer a{
+          font-size: 50%;
+      }
+      .container-2 li{
+        margin-right: 0;
+        padding-top: 2px;
+    }
+  }
+
+  
+
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .website-header img {
+        width: 25%;
+        height: 35%;
+    }
+}
+
+
+

@@ -29,13 +29,16 @@
             
         </div>
     </div>
-
-{% for menu in menus %}
-    <div>
-        <h1><button type="button" data-toggle="modal" data-target="#modal-{{menu.id}}">{{ menu.name }}</button></h1>
-    </div>
+    
+<div>
+    {% for menu in menus %}
+        <div class="button-holder">
+            <h1><button class="menu-button" type="button" data-toggle="modal" data-target="#modal-{{menu.id}}">{{ menu.name }}</button></h1>
+        </div>
     {% include 'menu/menu-modal.html' %}
-{% endfor %}
+    {% endfor %}
+</div>
+
 
 <div class="footer">
     <div class="container">

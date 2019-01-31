@@ -1,9 +1,8 @@
 <div class="modal fade" id="modal-{{menu.id}}" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <div class="modal-header text-center">
-                <h3 class="modal-title w-100">{{ menu.name }}</h3>
-                <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            <div class="modal-header">
+                <h3 class="modal-title text-center w-100">{{ menu.name }}</h3>
             </div>
 
             <div class="modal-body">
@@ -27,6 +26,10 @@
                     </div>
                 </div>
                 {% endfor %}
+            </div>
+
+            <div class="modal-footer">
+                <h5 class="modal-title text-center w-100" data-dismiss="modal"><button>Close</button></h3>
             </div>
 
         </div>

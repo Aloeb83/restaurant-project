@@ -3,6 +3,14 @@ html {
     min-height: 100%;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
 .menu-container{
     margin: 0 auto;
     width: 100%;
@@ -19,6 +27,11 @@ html {
     flex-direction: row;
 }
 
+span {
+    width: 100%;
+    float: left;
+}
+
 .image-container {
     width: 25%;
     display: flex;
@@ -28,11 +41,11 @@ html {
 
 body {
     height: 100%;
-    margin: 0 0 150px;
+    margin: 0 0 40px;
 }
 
 .bg {
-    background-image: url(https://images.unsplash.com/photo-1510148199876-8a856ee41d42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-color: #3F3F3F;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,9 +110,81 @@ ul {
 }
 
 .modal-content {
-    background-image: url(http://www.themeadhall.net/p/2018/05/best-photos-of-mexican-restaurant-menu-backgrounds-mexican-regarding-dinner-menu-background-2018.jpg);
+    background-image: url(https://images.unsplash.com/photo-1534593963832-01c3595183bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.modal-footer button{
+    background: none;
+    border: none;
+    width: 100%;
+}
+
+
+.menu-button {
+    height: 18%;
+    width: 50%;
+    background-color: #C9C9C9;
+    color: black;
+    text-shadow: 1px 1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px -1px 0 #ffffff,
+    0px 1px 0 #ffffff,
+    0px -1px 0 #ffffff,
+    -1px 0px 0 #ffffff,
+    1px 0px 0 #ffffff,
+    2px 2px 0 #ffffff,
+    -2px 2px 0 #ffffff,
+    2px -2px 0 #ffffff,
+    -2px -2px 0 #ffffff,
+    0px 2px 0 #ffffff,
+    0px -2px 0 #ffffff,
+    -2px 0px 0 #ffffff,
+    2px 0px 0 #ffffff,
+    1px 2px 0 #ffffff,
+    -1px 2px 0 #ffffff,
+    1px -2px 0 #ffffff,
+    -1px -2px 0 #ffffff,
+    2px 1px 0 #ffffff,
+    -2px 1px 0 #ffffff,
+    2px -1px 0 #ffffff,
+    -2px -1px 0 #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 60px;
+    cursor: pointer;
+    float: left;
+}
+
+.menu-button:hover {
+    background-color: #3F3F3F;
+    color: white;
+    text-shadow: 1px 1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px -1px 0 #000000,
+    0px 1px 0 #000000,
+    0px -1px 0 #000000,
+    -1px 0px 0 #000000,
+    1px 0px 0 #000000,
+    2px 2px 0 #000000,
+    -2px 2px 0 #000000,
+    2px -2px 0 #000000,
+    -2px -2px 0 #000000,
+    0px 2px 0 #000000,
+    0px -2px 0 #000000,
+    -2px 0px 0 #000000,
+    2px 0px 0 #000000,
+    1px 2px 0 #000000,
+    -1px 2px 0 #000000,
+    1px -2px 0 #000000,
+    -1px -2px 0 #000000,
+    2px 1px 0 #000000,
+    -2px 1px 0 #000000,
+    2px -1px 0 #000000,
+    -2px -1px 0 #000000;
 }
 
   @media only screen 
@@ -155,6 +240,7 @@ ul {
         -2px -1px 0 #ffffff;
         font-weight: bold;
         text-transform: uppercase;
+        font-size: 30px;
     }
     .button-holder {
         display: flex;
@@ -162,6 +248,10 @@ ul {
         flex-direction: column;
         width: 100%;
         padding: 1.3px;
+    }
+    body {
+        height: 100%;
+        margin: 0 0 150px;
     }
   }
 
@@ -175,6 +265,94 @@ ul {
     .website-header img {
         width: 25%;
         height: 35%;
+    }
+
+    .menu-button {
+        font-size: 30px;
+    }
+
+    body {
+        height: 100%;
+        margin: 0 0 125px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .bg {
+        background-color: #3F3F3F;
+        background-image: none;
+    }
+    
+    .website-header img {
+        width: 47%;
+        height: 30%;
+    }
+    .footer a{
+        font-size: 50%;
+    }
+    .container-2 li{
+      margin-right: 0;
+      padding-top: 2px;
+  }
+  .menu-button {
+      height: 9%;
+      width: 100%;
+      background-color: #C9C9C9;
+      color: black;
+      text-shadow: 1px 1px 0 #ffffff,
+      -1px 1px 0 #ffffff,
+      1px -1px 0 #ffffff,
+      -1px -1px 0 #ffffff,
+      0px 1px 0 #ffffff,
+      0px -1px 0 #ffffff,
+      -1px 0px 0 #ffffff,
+      1px 0px 0 #ffffff,
+      2px 2px 0 #ffffff,
+      -2px 2px 0 #ffffff,
+      2px -2px 0 #ffffff,
+      -2px -2px 0 #ffffff,
+      0px 2px 0 #ffffff,
+      0px -2px 0 #ffffff,
+      -2px 0px 0 #ffffff,
+      2px 0px 0 #ffffff,
+      1px 2px 0 #ffffff,
+      -1px 2px 0 #ffffff,
+      1px -2px 0 #ffffff,
+      -1px -2px 0 #ffffff,
+      2px 1px 0 #ffffff,
+      -2px 1px 0 #ffffff,
+      2px -1px 0 #ffffff,
+      -2px -1px 0 #ffffff;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+  .button-holder {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+      padding: 1.3px;
+  }
+  body {
+    height: 100%;
+    margin: 0 0 160px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    .menu-button {
+        font-size: 40px;
+        height: 16%;
+    }
+    body {
+        height: 100%;
+        margin: 0 0 50px;
     }
 }
 

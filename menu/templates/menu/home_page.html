@@ -12,7 +12,7 @@
 </body>
 </html>
 
-    <title>Home Page</title>
+    <title>Loeber Kitchen</title>
 </head>
 <body class="bg">
 
@@ -29,15 +29,18 @@
             
         </div>
     </div>
-    
+
 <div>
-    {% for menu in menus %}
-        <div class="button-holder">
-            <h1><button class="menu-button" type="button" data-toggle="modal" data-target="#modal-{{menu.id}}">{{ menu.name }}</button></h1>
-        </div>
-    {% include 'menu/menu-modal.html' %}
-    {% endfor %}
+    <span>
+        {% for menu in menus %}
+            <div class="button-holder">
+                <h1><button class="menu-button" type="button" data-toggle="modal" data-target="#modal-{{menu.id}}">{{ menu.name }}</button></h1>
+            </div>
+        {% include 'menu/menu-modal.html' %}
+        {% endfor %}
+    </span>
 </div>
+
 
 
 <div class="footer">

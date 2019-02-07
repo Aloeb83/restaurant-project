@@ -4,7 +4,6 @@ anaconda==0.0.1.1
 anaconda-project==0.8.2
 applescript==2018.11.19
 appnope==0.1.0
-appscript==1.0.1
 asn1crypto==0.24.0
 astroid==1.6.3
 astropy==3.0.2

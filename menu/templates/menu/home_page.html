@@ -8,9 +8,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'menu/style.css' %}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
-</body>
-</html>
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'favicon.ico' %}" />
 
     <title>Loeber Kitchen</title>
 </head>
@@ -31,7 +29,7 @@
     </div>
 
 <div>
-    <span>
+    <span class="menu">
         {% for menu in menus %}
             <div class="button-holder">
                 <h1><button class="menu-button" type="button" data-toggle="modal" data-target="#modal-{{menu.id}}">{{ menu.name }}</button></h1>

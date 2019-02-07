@@ -27,7 +27,7 @@ button:focus {
     flex-direction: row;
 }
 
-span {
+.menu {
     width: 100%;
     float: left;
 }
@@ -187,95 +187,6 @@ ul {
     -2px -1px 0 #000000;
 }
 
-  @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-
-      .bg {
-          background-color: #3F3F3F;
-          background-image: none;
-      }
-      
-      .website-header img {
-          width: 55%;
-          height: 30%;
-      }
-      .footer a{
-          font-size: 50%;
-      }
-      .container-2 li{
-        margin-right: 0;
-        padding-top: 2px;
-    }
-    .menu-button {
-        height: 9%;
-        width: 100%;
-        background-color: #C9C9C9;
-        color: black;
-        text-shadow: 1px 1px 0 #ffffff,
-        -1px 1px 0 #ffffff,
-        1px -1px 0 #ffffff,
-        -1px -1px 0 #ffffff,
-        0px 1px 0 #ffffff,
-        0px -1px 0 #ffffff,
-        -1px 0px 0 #ffffff,
-        1px 0px 0 #ffffff,
-        2px 2px 0 #ffffff,
-        -2px 2px 0 #ffffff,
-        2px -2px 0 #ffffff,
-        -2px -2px 0 #ffffff,
-        0px 2px 0 #ffffff,
-        0px -2px 0 #ffffff,
-        -2px 0px 0 #ffffff,
-        2px 0px 0 #ffffff,
-        1px 2px 0 #ffffff,
-        -1px 2px 0 #ffffff,
-        1px -2px 0 #ffffff,
-        -1px -2px 0 #ffffff,
-        2px 1px 0 #ffffff,
-        -2px 1px 0 #ffffff,
-        2px -1px 0 #ffffff,
-        -2px -1px 0 #ffffff;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-size: 30px;
-    }
-    .button-holder {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        width: 100%;
-        padding: 1.3px;
-    }
-    body {
-        height: 100%;
-        margin: 0 0 150px;
-    }
-  }
-
-  
-
-  @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-    .website-header img {
-        width: 25%;
-        height: 35%;
-    }
-
-    .menu-button {
-        font-size: 30px;
-    }
-
-    body {
-        height: 100%;
-        margin: 0 0 125px;
-    }
-}
 
 @media only screen 
 and (min-device-width : 768px) 
@@ -355,6 +266,609 @@ and (orientation : landscape) {
         margin: 0 0 50px;
     }
 }
+  
+
+  @media only screen 
+  and (min-device-width: 411px) 
+  and (max-device-width: 823px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+      .bg {
+          background-color: #3F3F3F;
+          background-image: none;
+      }
+      
+      .website-header img {
+          width: 60%;
+          height: 30%;
+      }
+      .footer a{
+          font-size: 8px;
+      }
+      .container-2 li{
+        margin-right: 0;
+        padding-top: 2px;
+    }
+    .menu-button {
+        height: 8.8%;
+        width: 100%;
+        background-color: #C9C9C9;
+        color: black;
+        text-shadow: 1px 1px 0 #ffffff,
+        -1px 1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        -1px -1px 0 #ffffff,
+        0px 1px 0 #ffffff,
+        0px -1px 0 #ffffff,
+        -1px 0px 0 #ffffff,
+        1px 0px 0 #ffffff,
+        2px 2px 0 #ffffff,
+        -2px 2px 0 #ffffff,
+        2px -2px 0 #ffffff,
+        -2px -2px 0 #ffffff,
+        0px 2px 0 #ffffff,
+        0px -2px 0 #ffffff,
+        -2px 0px 0 #ffffff,
+        2px 0px 0 #ffffff,
+        1px 2px 0 #ffffff,
+        -1px 2px 0 #ffffff,
+        1px -2px 0 #ffffff,
+        -1px -2px 0 #ffffff,
+        2px 1px 0 #ffffff,
+        -2px 1px 0 #ffffff,
+        2px -1px 0 #ffffff,
+        -2px -1px 0 #ffffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    .button-holder {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        padding: 1.3px;
+    }
+    body {
+        height: 100%;
+        margin: 0 0 150px;
+    }
+  }
+  
+
+  @media only screen 
+  and (min-device-width: 411px) 
+  and (max-device-width: 823px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    body {
+        height: 100%;
+        margin: 0 0 154px;
+    }
+  }
+
+  @media only screen 
+  and (min-device-width: 411px) 
+  and (max-device-width: 731px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (-webkit-max-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+      .bg {
+          background-color: #3F3F3F;
+          background-image: none;
+      }
+      
+      .website-header img {
+          width: 65%;
+          height: 30%;
+      }
+      .footer a{
+          font-size: 8px;
+      }
+      .container-2 li{
+        margin-right: 0;
+        padding-top: 2px;
+    }
+    .menu-button {
+        height: 8.8%;
+        width: 100%;
+        background-color: #C9C9C9;
+        color: black;
+        text-shadow: 1px 1px 0 #ffffff,
+        -1px 1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        -1px -1px 0 #ffffff,
+        0px 1px 0 #ffffff,
+        0px -1px 0 #ffffff,
+        -1px 0px 0 #ffffff,
+        1px 0px 0 #ffffff,
+        2px 2px 0 #ffffff,
+        -2px 2px 0 #ffffff,
+        2px -2px 0 #ffffff,
+        -2px -2px 0 #ffffff,
+        0px 2px 0 #ffffff,
+        0px -2px 0 #ffffff,
+        -2px 0px 0 #ffffff,
+        2px 0px 0 #ffffff,
+        1px 2px 0 #ffffff,
+        -1px 2px 0 #ffffff,
+        1px -2px 0 #ffffff,
+        -1px -2px 0 #ffffff,
+        2px 1px 0 #ffffff,
+        -2px 1px 0 #ffffff,
+        2px -1px 0 #ffffff,
+        -2px -1px 0 #ffffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    .button-holder {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        padding: 1.3px;
+    }
+    body {
+        height: 100%;
+        margin: 0 0 150px;
+    }
+  }
+
+  @media only screen 
+  and (min-device-width: 411px) 
+  and (max-device-width: 731px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (-webkit-max-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .website-header img {
+        width: 25%;
+        height: 35%;
+    }
+  
+    .menu-button {
+        font-size: 30px;
+    }
+  
+    body {
+        height: 100%;
+        margin: 0 0 125px;
+    }
+  }
+
+  @media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px)
+and (-webkit-max-device-pixel-ratio: 2)
+and (-webkit-max-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+    .bg {
+        background-color: #3F3F3F;
+        background-image: none;
+    }
+    
+    .website-header img {
+        width: 65%;
+        height: 30%;
+    }
+    .footer a{
+        font-size: 6px;
+    }
+    .container-2 li{
+      margin-right: 0;
+      padding-top: 2px;
+  }
+  .menu-button {
+      height: 9%;
+      width: 100%;
+      background-color: #C9C9C9;
+      color: black;
+      text-shadow: 1px 1px 0 #ffffff,
+      -1px 1px 0 #ffffff,
+      1px -1px 0 #ffffff,
+      -1px -1px 0 #ffffff,
+      0px 1px 0 #ffffff,
+      0px -1px 0 #ffffff,
+      -1px 0px 0 #ffffff,
+      1px 0px 0 #ffffff,
+      2px 2px 0 #ffffff,
+      -2px 2px 0 #ffffff,
+      2px -2px 0 #ffffff,
+      -2px -2px 0 #ffffff,
+      0px 2px 0 #ffffff,
+      0px -2px 0 #ffffff,
+      -2px 0px 0 #ffffff,
+      2px 0px 0 #ffffff,
+      1px 2px 0 #ffffff,
+      -1px 2px 0 #ffffff,
+      1px -2px 0 #ffffff,
+      -1px -2px 0 #ffffff,
+      2px 1px 0 #ffffff,
+      -2px 1px 0 #ffffff,
+      2px -1px 0 #ffffff,
+      -2px -1px 0 #ffffff;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 30px;
+  }
+  .button-holder {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+      padding: 1.3px;
+  }
+  body {
+      height: 100%;
+      margin: 0 0 150px;
+  }
+}
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (-webkit-max-device-pixel-ratio: 3)
+and (orientation: landscape) {
+  .website-header img {
+      width: 25%;
+      height: 35%;
+  }
+
+  .menu-button {
+      font-size: 30px;
+  }
+
+  body {
+      height: 100%;
+      margin: 0 0 125px;
+  }
+}
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+  .website-header img {
+      width: 20%;
+      height: 35%;
+  }
+
+  .menu-button {
+      font-size: 30px;
+  }
+
+  body {
+      height: 100%;
+      margin: 0 0 98px;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+      .bg {
+          background-color: #3F3F3F;
+          background-image: none;
+      }
+      
+      .website-header img {
+          width: 65%;
+          height: 30%;
+      }
+      .footer a{
+          font-size: 6px;
+      }
+      .container-2 li{
+        margin-right: 0;
+        padding-top: 2px;
+    }
+    .menu-button {
+        height: 9%;
+        width: 100%;
+        background-color: #C9C9C9;
+        color: black;
+        text-shadow: 1px 1px 0 #ffffff,
+        -1px 1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        -1px -1px 0 #ffffff,
+        0px 1px 0 #ffffff,
+        0px -1px 0 #ffffff,
+        -1px 0px 0 #ffffff,
+        1px 0px 0 #ffffff,
+        2px 2px 0 #ffffff,
+        -2px 2px 0 #ffffff,
+        2px -2px 0 #ffffff,
+        -2px -2px 0 #ffffff,
+        0px 2px 0 #ffffff,
+        0px -2px 0 #ffffff,
+        -2px 0px 0 #ffffff,
+        2px 0px 0 #ffffff,
+        1px 2px 0 #ffffff,
+        -1px 2px 0 #ffffff,
+        1px -2px 0 #ffffff,
+        -1px -2px 0 #ffffff,
+        2px 1px 0 #ffffff,
+        -2px 1px 0 #ffffff,
+        2px -1px 0 #ffffff,
+        -2px -1px 0 #ffffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    .button-holder {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        padding: 1.3px;
+    }
+    body {
+        height: 100%;
+        margin: 0 0 150px;
+    }
+  }
+
+@media only screen 
+and (min-device-width: 360px) 
+and (max-device-width: 640px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (-webkit-max-device-pixel-ratio: 3)
+and (orientation: landscape) {
+  .website-header img {
+      width: 25%;
+      height: 35%;
+  }
+
+  .menu-button {
+      font-size: 30px;
+  }
+
+  body {
+      height: 100%;
+      margin: 0 0 125px;
+  }
+}
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+    .bg {
+        background-color: #3F3F3F;
+        background-image: none;
+    }
+    
+    .website-header img {
+        width: 75%;
+        height: 30%;
+    }
+    .footer a{
+        font-size: 6px;
+    }
+    .container-2 li{
+      margin-right: 0;
+      padding-top: 2px;
+  }
+  .menu-button {
+      height: 9%;
+      width: 100%;
+      background-color: #C9C9C9;
+      color: black;
+      text-shadow: 1px 1px 0 #ffffff,
+      -1px 1px 0 #ffffff,
+      1px -1px 0 #ffffff,
+      -1px -1px 0 #ffffff,
+      0px 1px 0 #ffffff,
+      0px -1px 0 #ffffff,
+      -1px 0px 0 #ffffff,
+      1px 0px 0 #ffffff,
+      2px 2px 0 #ffffff,
+      -2px 2px 0 #ffffff,
+      2px -2px 0 #ffffff,
+      -2px -2px 0 #ffffff,
+      0px 2px 0 #ffffff,
+      0px -2px 0 #ffffff,
+      -2px 0px 0 #ffffff,
+      2px 0px 0 #ffffff,
+      1px 2px 0 #ffffff,
+      -1px 2px 0 #ffffff,
+      1px -2px 0 #ffffff,
+      -1px -2px 0 #ffffff,
+      2px 1px 0 #ffffff,
+      -2px 1px 0 #ffffff,
+      2px -1px 0 #ffffff,
+      -2px -1px 0 #ffffff;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 30px;
+  }
+  .button-holder {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+      padding: 1.3px;
+  }
+  body {
+      height: 100%;
+      margin: 0 0 160px;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (-webkit-max-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+      .bg {
+          background-color: #3F3F3F;
+          background-image: none;
+      }
+      
+      .website-header img {
+          width: 65%;
+          height: 30%;
+      }
+      .footer a{
+          font-size: 5px;
+      }
+      .container-2 li{
+        margin-right: 0;
+        padding-top: 2px;
+    }
+    .menu-button {
+        height: 9%;
+        width: 100%;
+        background-color: #C9C9C9;
+        color: black;
+        text-shadow: 1px 1px 0 #ffffff,
+        -1px 1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        -1px -1px 0 #ffffff,
+        0px 1px 0 #ffffff,
+        0px -1px 0 #ffffff,
+        -1px 0px 0 #ffffff,
+        1px 0px 0 #ffffff,
+        2px 2px 0 #ffffff,
+        -2px 2px 0 #ffffff,
+        2px -2px 0 #ffffff,
+        -2px -2px 0 #ffffff,
+        0px 2px 0 #ffffff,
+        0px -2px 0 #ffffff,
+        -2px 0px 0 #ffffff,
+        2px 0px 0 #ffffff,
+        1px 2px 0 #ffffff,
+        -1px 2px 0 #ffffff,
+        1px -2px 0 #ffffff,
+        -1px -2px 0 #ffffff,
+        2px 1px 0 #ffffff,
+        -2px 1px 0 #ffffff,
+        2px -1px 0 #ffffff,
+        -2px -1px 0 #ffffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    .button-holder {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        padding: 1.3px;
+    }
+    body {
+        height: 100%;
+        margin: 0 0 150px;
+    }
+
+    .flex-box-container-1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text-container {
+        width: 60%;
+        text-align: left;
+    }
+
+    .image-container img{
+        align-content: flex-end;
+        padding: 5px;
+    }
+  }
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (-webkit-max-device-pixel-ratio: 3)
+and (orientation: landscape) {
+  .website-header img {
+      width: 25%;
+      height: 35%;
+  }
+
+  .footer a {
+      font-size: 12px;
+  }
+
+  .menu-button {
+      font-size: 25px;
+  }
+
+  body {
+      height: 100%;
+      margin: 0 0 120px;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .website-header img {
+        width: 65%;
+        height: 35%;
+    }
+      .footer a {
+          font-size: 7px;
+      }
+      body {
+        height: 100%;
+        margin: 0 0 188px;
+    }
+  }
+
+  @media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .website-header img {
+        width: 25%;
+        height: 35%;
+    }
+
+    body {
+        height: 100%;
+        margin: 0 0 128px;
+    }
+  }
+
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      body {
+          height: 100%;
+          margin: 0 0 170px;
+      }
+  }
+
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+      body {
+          height: 100%;
+          margin: 0 0 17px;
+      }
+  }
 
 
 

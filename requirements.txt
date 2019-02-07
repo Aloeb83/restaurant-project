@@ -1,7 +1,6 @@
 airtable-python-wrapper==0.8.0
 alabaster==0.7.10
 anaconda==0.0.1.1
-anaconda-navigator==1.9.2
 anaconda-project==0.8.2
 appnope==0.1.0
 appscript==1.0.1

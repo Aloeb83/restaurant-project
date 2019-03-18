@@ -2,7 +2,7 @@ anaconda==0.0.1.1
 anaconda-project==0.8.2
 certifi==2018.4.16
 cytoolz==0.9.0.1
-Django==2.1.1
+Django==2.1.5
 django-crispy-forms==1.7.2
 docutils==0.14
 heroku==0.1.4
